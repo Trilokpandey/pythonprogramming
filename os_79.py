@@ -1,0 +1,17 @@
+import os
+print(dir(os))
+print(os.getcwd())
+os.chdir("c:\\")
+print(os.getcwd())
+#f=open("sonu.txt")
+
+print(os.listdir("c://"))
+print(type(os.listdir("c://")))
+#os.mkdir("babaa")
+#os.makedirs("baba/bholenatha")
+#os.rename("pandit.txt","sonu.txt")
+print(os.environ.get('path'))
+print(os.path.join("c://","/abc.txt"))
+print(os.path.exists("c://program files"))
+print(os.path.isdir("c://program files"))
+print(os.path.isfile("c://program files"))
